@@ -1,0 +1,227 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+    padding: 0;
+    background-color: rgb(230, 230, 230);
+    box-sizing: border-box;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+#header {
+    height: 65px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 10%;
+}
+
+.nav li, a, button {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #000000;
+    text-decoration: none;
+}
+
+.nav_links {
+    list-style: none;
+}
+
+.nav_links li {
+    display: inline-block;
+    padding: 0 20px;
+}
+
+.nav_links li a {
+    transition: all 0.3s ease 0s;
+}
+
+.nav_links li a:hover {
+    background-color: #000000;
+    border-radius: 50px;
+    padding: 10px;
+    color: white;
+}
+
+.login {
+    color: white;
+}
+
+button {
+    padding: 9 25px;
+    background-color: rgba(0, 136, 169, 1);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+button:hover {
+    background-color: rgb(0, 163, 204);
+}
+
+#logo {
+    height: 100px;
+    width: 100px;
+}
+
+#logo:hover {
+    filter:opacity(50%);
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+#sidebar {
+    height: 2400px;
+    width: 250px;
+    margin-left: 60px;
+    margin-top: 50px;
+    background-color: rgb(255, 255, 255);
+    float: left;
+}
+
+.row {
+    flex-wrap: wrap;
+}
+
+.h2 {
+    margin-left: 10px;
+}
+
+.searchbar {
+    margin-left: 40px;
+}
+
+.footer {
+    width: 100vw;
+    height: 250px;
+    background-color: rgb(0, 0, 37);
+    color: white;
+    margin-top: 50px;
+    float: right;
+    display: flex;
+    text-align: center;
+}
+
+.one {
+    padding: 10px;
+    margin-left: 130px;
+    text-align: center;
+    color: grey;
+    margin-top: 10px;
+}
+
+h3 {
+    color: #ffffff;
+}
+
+.main {
+    height: 80vh;
+    width: 90vw;
+    background-color: rgb(255, 255, 255);
+    border: 2px solid black;
+    margin-left: 5%;
+    margin-top: 50px;
+}
+
+.header2 {
+    width: 100%;
+    height: 12%;
+    background-color: rgb(255, 255, 255);
+}
+
+.nav_links2 {
+    list-style: none;
+    display: flex;
+    margin-left: 34%;
+    gap: 5rem;
+}
+
+.nav_links2 li a {
+    transition: all 0.3s ease 0s;
+}
+
+.nav_links2 li a:hover {
+    color: #0088a9;
+}
+
+.content {
+    height: 72%;
+    width: 100%;
+    margin: -30px auto;
+    text-align: center;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+}
+
+.ruimte2 {
+    width: 90vw;
+    height: 5%;
+    background-color: rgb(255, 255, 255);
+}
+
+.pager {
+    margin: 0 auto;
+    width: 200px;
+    height: 60px;
+    /* background-color: aqua; */
+    text-align: center;
+}
+
+.new {
+    margin: 0 auto;
+}
+
+.bottom {
+    width: 100%;
+    height: 40px;
+    /* border: 2px solid black; */
+    display: flex;
+    margin-top: 50px;
+}
+
+.colom {
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    height: 54px;
+    /* border-right: 2px solid black; */
+    border-bottom: 2px solid black;
+    text-align: left;
+}
+
+.editbutton {
+    background-color: #0088a9;
+    border-radius: 10px;
+    padding: 5px;
+    float: right;
+    margin-left: 3px;
+    margin-top: 10px;
+}
+
+.editbutton:hover {
+    transition: all 0.3s ease 0s;
+    background-color: #000000;
+    padding: 5px;
+    color: white;
+}
+
+.deletebutton {
+    background-color: red;
+    border-radius: 10px;
+    padding: 5px;
+    float: right;
+    margin-top: 10px;
+}
+
+.deletebutton:hover {
+    transition: all 0.3s ease 0s;
+    background-color: #000000;
+    padding: 5px;
+    color: white;
+}

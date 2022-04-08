@@ -1,0 +1,96 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+    background-color: rgb(230, 230, 230);
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+#header {
+    height: 100px;
+    width: 100vw;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    font-size: 30px;
+}
+
+#logo {
+    height: 100px;
+    width: 100px;
+}
+
+#logo:hover {
+    filter:opacity(50%);
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+#sidebar {
+    height: 800px;
+    width: 1150px;
+    margin-left: 60px;
+    margin-top: 50px;
+    background-color: rgb(255, 255, 255);
+    float: left;
+    text-align: center;
+}
+
+#footer {
+    width: 100vw;
+    height: 125px;
+    margin-top: 130px;
+    margin-left: -60px;
+    background-color: rgb(255, 255, 255);
+    float: left;
+}
+
+#footertext {
+    margin-top: 50px;
+    text-align: center;
+}
+
+.keyboard {
+    height: 400px;
+    width: 400px;
+}
+
+.items {
+    transform: translate(0%, 5%);
+}
+
+.tekst1 {
+    font-size: 30px;
+    margin-top: 20px;
+}
+
+.tekst2 {
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+.tekst3 {
+    font-size: 30px;
+    margin-top: 20px;
+}
+
+.tekst4 {
+    font-size: 30px;
+    margin-top: 20px;
+}
+
+.submit {
+    background-color: grey;
+    height: 30px;
+    width: 125px;
+    margin-top: 20px;
+}
+
+.submit:hover {
+    background-color: rgb(255, 255, 255);
+    height: 35px;
+    width: 150px;
+    margin-top: 22px;
+    transition: 0.3s;
+}
