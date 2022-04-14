@@ -54,8 +54,8 @@ include "db_conn.php"
                             // echo $row['description'];
                             echo $row['price'];
                             ?>
-                            <a class="editbutton" href="./edit.php?id=<?php echo $row['product_id'];?>">Edit</a>
-                            <a class="deletebutton" href="delete.php?id=<?php echo $row['product_id'];?>" onclick="return confirm('Are you sure?')">Delete</a>
+                            <a class="editbutton" href="edit.php?id=<?php echo $row['product_id']; ?>">Edit</a>
+                            <a class="deletebutton" href="delete.php?id=<?php echo $row['product_id']; ?>" onclick="return confirm('Are you sure?')">Delete</a>
                         </div>
 
                 <?php
