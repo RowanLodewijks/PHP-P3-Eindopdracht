@@ -25,6 +25,7 @@ if (isset($_GET['id'])) {
 
   $result = $conn->query($sql);
 
+  // if ($result->num_rows > 0) {
   if ($result->num_rows > 0) {
     while ($row = $result->fetch_assoc()) {
       $user_name = $row['user_name'];
@@ -66,7 +67,7 @@ if (isset($_GET['id'])) {
 
 <?php
   } else {
-    header('location:admin_products.php');
+    // header('location:admin_products.php');
   }
 }
 ?>
